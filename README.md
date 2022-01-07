@@ -1,6 +1,6 @@
-# portifolio
+# portfolio
 
-Portifolio Desenvolvedor
+Portfolio Desenvolvedor
 
 ## Tarefas
 
