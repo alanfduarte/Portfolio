@@ -19,9 +19,7 @@
             <div class="line" id="line3"></div>
             <span>fechar</span>
         </div>
-        
-        <header>
-
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
             </div>
@@ -31,17 +29,15 @@
                 <p>Alan Ferreira</p>
                 <button>Saiba mais</button>
              </div>
-
         </header>
-
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contatos" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -51,8 +47,7 @@
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </aside>
-        
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -113,17 +108,13 @@
                 </div>
                 <div class="conhecimentos-img-wrapper">
                     <img src="imagens/transparent-text-line-technology-diagram-sharing-layer1-crenet-strony-internetowe-gdynia-stron5e4eaad2d39608.9019504615822138428667.png" alt="image conhecimentos">
-                
                 </div>
             </div>
         </section>
-
-        <section class="sessao-projeto">
+        <section class="sessao-projeto" id="projetos">
             <div class="sessao-header">
                 <h1>Projeto</h1>
             </div>
-
-
             <div class="projetos">
                 <div class="card">
                     <div class="card-img-wrapper">
@@ -136,7 +127,6 @@
                         <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
-
                 <div class="card">
                      <div class="card-img-wrapper">
                         <img src="imagens/projeto2.jpg" alt="imagem do projeto maratona">               
@@ -148,7 +138,6 @@
                         <button class="btn">Saiba Mais</button>
                     </div>
                 </div> 
-
                 <div class="card">
                     <div class="card-img-wrapper">
                     <img src="imagens/projeto3.jpg" alt="imagem do projeto casa bela">
@@ -160,16 +149,10 @@
                         </div>
                     </div>
                 </div>
-
-
-                </div>
             </div>
-
-
-
+         </div>
         </section>
-
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contatos">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
                 <div class="contato-right">
@@ -190,23 +173,18 @@
                             <textarea class="field" id="mensagem"></textarea>
                             <label for="mensagem" class="field-label">Mensagem</label>
                         </div>
-
-                            <button type="submit" class="btn btn-submit">Enviar</button></div>
-
-
+                        <button type="submit" class="btn btn-submit">Enviar</button>
                     </form>
-
-
                 </div>
             </div>
         </section>
-        <section class="sessao-orcamento">
+        <section class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça um orçamento</h1>
                <form>
                    <label for="qtde">Qtde de páginas</label>
-                   <input type="number" min='1' name="qtde" id="qtde">
-                   <label for="js">Preciso de script</label>
+                   <input type="number" min="1" name="qtde" id="qtde">
+                   <label for="js">Preciso de script JS</label>
                    <input type="checkbox" name="js" id="js">
                    <label>Layout</label>
                    <div class="group-layout">
@@ -217,10 +195,29 @@
                     </div>
                     <label for="prazo">Prazo</label>
                     <input type="range" name="prazo" id="prazo">
+                    <label id="preco">R$ 0,00</label> 
                     <button class="btn btn-orcamento"  type="submit">Enviar</button>
                 </form>
             </div>
         </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    copyright &copy; 2022, ETECIA DS - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+            </i>
+        </a>
     </div>
 
     </body>
